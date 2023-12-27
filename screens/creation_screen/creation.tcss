@@ -1,0 +1,27 @@
+Tabs {
+    dock: top;
+}
+
+Middle {
+    layout: horizontal;
+}
+
+Bottombar {
+    dock: bottom;
+    width: 100%;
+    height: 3;
+    background: #24292f;
+}
+
+.plus_one {
+    width: 85%;
+    margin-left: 4;
+    margin-top: 4;
+    text-align: center;
+}
+
+.lock_in {
+    margin-left: 2;
+    margin-top: 1;
+    text-align: center;
+}

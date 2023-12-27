@@ -1,0 +1,176 @@
+{
+    "Berserk": {
+        "Name": "Berserk",
+        "Race": "",
+        "MainStat": "Strength",
+        "Health": {
+            "current_value": 100,
+            "maximum_value": 100
+        },
+        "Strength": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Defence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Agility": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Intelligence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Experience": 0,
+        "Level": 0,
+        "Inventory": {},
+        "Save_Name": ""
+    },
+    "Warrior": {
+        "Name": "Warrior",
+        "Race": "",
+        "MainStat": "Defence",
+        "Health": {
+            "current_value": 100,
+            "maximum_value": 100
+        },
+        "Strength": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Defence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Agility": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Intelligence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Experience": 0,
+        "Level": 0,
+        "Inventory": {},
+        "Save_Name": ""
+    },
+    "Archer": {
+        "Name": "Archer",
+        "Race": "",
+        "MainStat": "Agility",
+        "Health": {
+            "current_value": 100,
+            "maximum_value": 100
+        },
+        "Strength": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Defence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Agility": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Intelligence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Experience": 0,
+        "Level": 0,
+        "Inventory": {},
+        "Save_Name": ""
+    },
+    "Mage": {
+        "Name": "Mage",
+        "Race": "",
+        "MainStat": "Intelligence",
+        "Health": {
+            "current_value": 100,
+            "maximum_value": 100
+        },
+        "Strength": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Defence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Agility": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Intelligence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Experience": 0,
+        "Level": 0,
+        "Inventory": {},
+        "Save_Name": ""
+    },
+    "Necromancer": {
+        "Name": "Necromancer",
+        "Race": "",
+        "MainStat": "Intelligence",
+        "Health": {
+            "current_value": 100,
+            "maximum_value": 100
+        },
+        "Strength": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Defence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Agility": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Intelligence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Experience": 0,
+        "Level": 0,
+        "Inventory": {},
+        "Save_Name": ""
+    },
+    "Druid": {
+        "Name": "Druid",
+        "Race": "",
+        "MainStat": "Intelligence",
+        "Health": {
+            "current_value": 100,
+            "maximum_value": 100
+        },
+        "Strength": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Defence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Agility": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Intelligence": {
+            "current_value": 0,
+            "maximum_value": 0
+        },
+        "Experience": 0,
+        "Level": 0,
+        "Inventory": {},
+        "Save_Name": ""
+    }
+}

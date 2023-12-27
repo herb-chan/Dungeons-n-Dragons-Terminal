@@ -1,0 +1,29 @@
+{
+    "Name": "Archer",
+    "Race": "Dark Elf",
+    "MainStat": "Agility",
+    "Health": {
+        "current_value": 100,
+        "maximum_value": 100
+    },
+    "Strength": {
+        "current_value": 0,
+        "maximum_value": 0
+    },
+    "Defence": {
+        "current_value": 0,
+        "maximum_value": 0
+    },
+    "Agility": {
+        "current_value": 0,
+        "maximum_value": 0
+    },
+    "Intelligence": {
+        "current_value": 0,
+        "maximum_value": 0
+    },
+    "Experience": 0,
+    "Level": 0,
+    "Inventory": {},
+    "Save_Name": ""
+}

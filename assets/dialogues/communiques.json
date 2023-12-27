@@ -1,0 +1,10 @@
+{
+    "type": {
+        "value": "Error: no save slots are in use.",
+        "colour": "red"
+    },
+    "text": {
+        "value": "If you believe it's a mistake, please check your 'save' directory.\n",
+        "colour": "bright_yellow"
+    }
+}
