@@ -1,6 +1,6 @@
 from textual.app import ComposeResult
 from textual.screen import Screen
-from textual.widgets import Header, Footer, Label, Button
+from textual.widgets import Button
 from textual.widget import Widget
 from textual import events
 

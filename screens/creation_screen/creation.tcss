@@ -13,8 +13,11 @@ Bottombar {
     background: #24292f;
 }
 
-.lock_in {
-    margin-left: 0;
+RaceTabInformations {
+    dock: right;
+    width: 50%;
+}
+
+.race_select {
     margin-top: 1;
-    text-align: center;
 }
