@@ -49,6 +49,47 @@ RaceTabInformations {
 
 .selected_race_traits {
     margin-bottom: 0;
+    margin-left: 3;
+    margin-right: 3;
+    width: 100%;
+}
+
+ClassTabPane {
+    height: 37;
+}
+
+ClassTabInformations {
+    dock: right;
+    width: 50%;
+    height: 100%;
+}
+
+.class_introduction {
+    width: 100%;
+}
+
+.class_select {
+    margin-top: 1;
+    margin-left: 3;
+    margin-right: 3;
+    width: 100%;
+}
+
+.selected_class_title {
+    margin: 0;
+    margin-left: 4;
+    margin-right: 4;
+}
+
+.selected_class_description {
+    margin-bottom: 0;
+    margin-left: 4;
+    margin-right: 4;
+    width: 100%;
+}
+
+.selected_class_traits {
+    margin-bottom: 0;
     margin-left: 4;
     margin-right: 4;
     width: 100%;
