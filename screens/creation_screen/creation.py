@@ -31,7 +31,7 @@ class CreationScreen(Screen):
         yield bottombar
         with TabbedContent(initial="race", classes="Tabs", disabled=False):
             yield RaceTabPane(bottombar)
-            yield ClassTabPane()
+            yield ClassTabPane(bottombar)
             yield AbilitiesTabPane()
             yield EquipmentTabPane()
             yield ShowcaseTabPane()
