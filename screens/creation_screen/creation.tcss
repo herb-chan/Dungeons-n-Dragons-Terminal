@@ -23,47 +23,47 @@ RaceTabInformations {
     height: 100%;
 }
 
+.race_introduction {
+    width: 100%;
+}
+
 .race_select {
     margin-top: 1;
-    width: 98%;
+    width: 100%;
+}
+
+.selected_race_title {
+    margin: 0;
 }
 
 .selected_race_name {
-    margin-top: 1;
     width: 100%;
 }
 
 .selected_race_description {
-    margin-top: 1;
     width: 100%;
 }
 
 .selected_race_age {
-    margin-top: 1;
     width: 100%;
 }
 
 .selected_race_alignment {
-    margin-top: 1;
     width: 100%;
 }
 
 .selected_race_size {
-    margin-top: 1;
     width: 100%;
 }
 
 .selected_race_speed {
-    margin-top: 1;
     width: 100%;
 }
 
 .selected_race_languages {
-    margin-top: 1;
     width: 100%;
 }
 
 .selected_race_traits {
-    margin-top: 1;
     width: 100%;
 }
