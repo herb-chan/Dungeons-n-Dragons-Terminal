@@ -1,176 +1,68 @@
 {
     "Berserk": {
         "Name": "Berserk",
-        "Race": "",
-        "MainStat": "Strength",
-        "Health": {
-            "current_value": 100,
-            "maximum_value": 100
-        },
-        "Strength": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Defence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Agility": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Intelligence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Experience": 0,
-        "Level": 0,
-        "Inventory": {},
-        "Save_Name": ""
+        "Description": "Berserkers are fierce warriors who channel their rage into powerful displays of combat prowess. They are known for their ability to enter a battle rage, a state in which they are incredibly tough, resistant to certain types of damage, and able to deal more damage with melee attacks. Berserkers draw from a roiling reservoir of anger at a world full of pain. This fury can push them beyond their physical limits, allowing them to perform superhuman feats of strength and endurance. They are uncomfortable when hedged in by walls and crowds, preferring wide, open spaces where they can move and fight freely.",
+        "PrimaryAbility": "Strength",
+        "HitDie": "d12",
+        "Saves": ["Strength", "Constitution"],
+        "Subclass": "Path of the Berserker",
+        "Spells": ["rage"],
+        "Feats": ["Extra Attack", "Fast Movement"],
+        "Equipment": ["Greatsword", "Hide armor"]
     },
     "Warrior": {
         "Name": "Warrior",
-        "Race": "",
-        "MainStat": "Defence",
-        "Health": {
-            "current_value": 100,
-            "maximum_value": 100
-        },
-        "Strength": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Defence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Agility": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Intelligence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Experience": 0,
-        "Level": 0,
-        "Inventory": {},
-        "Save_Name": ""
+        "Description": "Warriors are brave fighters who excel in combat. They possess a wide range of weapons and armor, making them versatile on the battlefield. Warriors rely on strong strategy and tactics in battle, rather than raw power or magic. They are trained to use nearly every weapon and armor type, and they are also skilled in a variety of fighting styles. Warriors are often seen leading armies into battle, but they can also be found as lone mercenaries, bodyguards, or adventurers.",
+        "HitDie": "d10",
+        "PrimaryAbility": "Strength",
+        "Saves": ["Strength", "Constitution"],
+        "Subclass": "Champion",
+        "Spells": [],
+        "Feats": ["Fighting Style", "Second Wind"],
+        "Equipment": ["Longsword", "Shield"]
     },
     "Archer": {
         "Name": "Archer",
-        "Race": "",
-        "MainStat": "Agility",
-        "Health": {
-            "current_value": 100,
-            "maximum_value": 100
-        },
-        "Strength": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Defence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Agility": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Intelligence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Experience": 0,
-        "Level": 0,
-        "Inventory": {},
-        "Save_Name": ""
+        "Description": "Archers are nimble, master of the bow, who use their sharp eyes, steady hands, and the power of flight to take down their enemies from afar. They are experts in ranged combat, able to hit targets from a distance with pinpoint accuracy. Archers are often found in the wilderness, using their skills to hunt for food and defend themselves from threats. They are also adept at stealth and survival, able to navigate through different terrains and remain unseen by their enemies.",
+        "HitDie": "d10",
+        "PrimaryAbility": "Dexterity",
+        "Saves": ["Dexterity", "Wisdom"],
+        "Subclass": "Hunter",
+        "Spells": [],
+        "Feats": ["Archery Fighting Style", "Extra Attack"],
+        "Equipment": ["Longbow", "Leather armor"]
     },
     "Mage": {
         "Name": "Mage",
-        "Race": "",
-        "MainStat": "Intelligence",
-        "Health": {
-            "current_value": 100,
-            "maximum_value": 100
-        },
-        "Strength": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Defence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Agility": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Intelligence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Experience": 0,
-        "Level": 0,
-        "Inventory": {},
-        "Save_Name": ""
+        "Description": "Mages are spellcasters who study arcane magic. They use their extensive knowledge about magic to cast spells and create magical items. Mages spend much of their time in study, trying to master new spells and improve their understanding of magic. They are often found in academies or libraries, surrounded by books and scrolls. Mages can cast a variety of spells, including spells that deal damage, protect themselves, or manipulate objects. They can also create magical items, such as potions or enchanted weapons.",
+        "HitDie": "d6",
+        "PrimaryAbility": "Intelligence",
+        "Saves": ["Intelligence", "Wisdom"],
+        "Subclass": "School of Evocation",
+        "Spells": ["Magic Missile", "Shield"],
+        "Feats": ["Arcane Recovery"],
+        "Equipment": ["Quarterstaff", "Spellbook"]
     },
     "Necromancer": {
         "Name": "Necromancer",
-        "Race": "",
-        "MainStat": "Intelligence",
-        "Health": {
-            "current_value": 100,
-            "maximum_value": 100
-        },
-        "Strength": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Defence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Agility": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Intelligence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Experience": 0,
-        "Level": 0,
-        "Inventory": {},
-        "Save_Name": ""
+        "Description": "Necromancers are spellcasters who seek to harness the powers of life and death. Using their magic, they can command undead and make use of harmful, deathly magic. Necromancers are often feared and misunderstood, associated with death and dark magic. They study the forbidden arts of reanimation, learning to summon and control undead creatures. Necromancers can also cast spells that drain life force, cause fear, or inflict curses.",
+        "HitDie": "d6",
+        "PrimaryAbility": "Intelligence",
+        "Saves": ["Intelligence", "Wisdom"],
+        "Subclass": "School of Necromancy",
+        "Spells": ["Chill Touch", "Ray of Sickness"],
+        "Feats": ["Grim Harvest"],
+        "Equipment": ["Dagger", "Spellbook"]
     },
     "Druid": {
         "Name": "Druid",
-        "Race": "",
-        "MainStat": "Intelligence",
-        "Health": {
-            "current_value": 100,
-            "maximum_value": 100
-        },
-        "Strength": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Defence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Agility": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Intelligence": {
-            "current_value": 0,
-            "maximum_value": 0
-        },
-        "Experience": 0,
-        "Level": 0,
-        "Inventory": {},
-        "Save_Name": ""
+        "Description": "Druids are spellcasters who draw their magic from a deep, primal connection with nature. They can transform into animals, heal the wounded, and command nature to rise up against their foes. Druids believe in the power of nature and seek to maintain balance between the natural world and civilization. They are often found in wild places, away from the cities and towns. Druids can cast a variety of spells, many of which allow them to heal, summon animals, or manipulate the elements.",
+        "HitDie": "d8",
+        "PrimaryAbility": "Wisdom",
+        "Saves": ["Intelligence", "Wisdom"],
+        "Subclass": "Circle of the Land",
+        "Spells": ["Entangle", "Healing Word"],
+        "Feats": ["Wild Shape", "Druidic"],
+        "Equipment": ["Scimitar", "Leather armor"]
     }
 }
