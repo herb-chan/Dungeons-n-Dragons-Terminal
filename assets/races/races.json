@@ -1,143 +1,97 @@
 {
     "Aarakocra": {
         "Name": "Aarakocra",
-        "Description": "A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander.",
-        "Age": "Aarakocra reach maturity by age 3. Compared to humans, aarakocra don’t usually live longer than 30 years.",
-        "Alignment": "Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic.",
-        "Size": "Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium.",
-        "Speed": "Your base walking speed is 25 feet.",
-        "Languages": "You can speak, read, and write Common, Aarakocra, and Auran.",
-        "Racial Traits": ["Flight", "Talons", "Wind Caller"]
+        "Description": "A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander. They reach maturity by age 3 and don’t usually live longer than 30 years. Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic. Aarakocra are about 5 feet tall, have thin, lightweight bodies that weigh between 80 and 100 pounds, and their base walking speed is 25 feet. They can speak, read, and write Common, Aarakocra, and Auran.",
+        "Racial Traits": ["\n- Flight\n", "- Talons\n", "- Wind Caller"]
     },
     "Dragonborn": {
         "Name": "Dragonborn",
-        "Description": "Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail.",
-        "Age": "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
-        "Alignment": "Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.",
-        "Size": "Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.",
-        "Speed": "Your base walking speed is 30 feet.",
-        "Languages": "You can speak, read, and write Common and Draconic.",
+        "Description": "Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. They grow quickly, walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80. Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains. Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Their base walking speed is 30 feet. They can speak, read, and write Common and Draconic.",
         "Racial Traits": [
-            "+2 Strength",
-            "+1 Charisma",
-            "Draconic Ancestry",
-            "Breath Weapon",
-            "Damage Resistance"
+            "\n- +2 Strength",
+            "- +1 Charisma\n",
+            "- Draconic Ancestry\n",
+            "- Breath Weapon\n",
+            "- Damage Resistance\n"
         ]
     },
     "Dwarf": {
         "Name": "Dwarf",
-        "Description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.",
-        "Age": "Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.",
-        "Alignment": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
-        "Size": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
-        "Speed": "Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.",
-        "Languages": "You can speak, read, and write Common and Dwarvish.",
+        "Description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. They mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years. Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order. Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Their base walking speed is 25 feet and their speed is not reduced by wearing heavy armor. They can speak, read, and write Common and Dwarvish.",
         "Racial Traits": [
-            "+2 Constitution",
-            "Darkvision",
-            "Dwarven Resilience",
-            "Dwarven Combat Training",
-            "Stonecunning"
+            "\n- +2 Constitution\n",
+            "- Darkvision\n",
+            "- Dwarven Resilience\n",
+            "- Dwarven Combat Training\n",
+            "- Stonecunning\n"
         ]
     },
     "Elf": {
         "Name": "Elf",
-        "Description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
-        "Age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
-        "Alignment": "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.",
-        "Size": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
-        "Speed": "Your base walking speed is 30 feet.",
-        "Languages": "You can speak, read, and write Common and Elvish.",
+        "Description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They reach physical maturity at about the same age as humans, but the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old. Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not. Elves range from under 5 to over 6 feet tall and have slender builds. Their base walking speed is 30 feet. They can speak, read, and write Common and Elvish.",
         "Racial Traits": [
-            "+2 Dexterity",
-            "Darkvision",
-            "Keen Senses",
-            "Fey Ancestry",
-            "Trance"
+            "\n- +2 Dexterity\n",
+            "- Darkvision\n",
+            "- Keen Senses\n",
+            "- Fey Ancestry\n",
+            "- Trance"
         ]
     },
     "Genasi": {
         "Name": "Genasi",
-        "Description": "Genasi carry the power of the elemental planes of air, earth, fire, and water in their blood.",
-        "Age": "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
-        "Alignment": "Independent and self-reliant, genasi tend toward a neutral alignment.",
-        "Size": "Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.",
-        "Speed": "Your base walking speed is 30 feet.",
-        "Languages": "You can speak, read, and write Common and Primordial.",
+        "Description": "Genasi carry the power of the elemental planes of air, earth, fire, and water in their blood. They mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years. Independent and self-reliant, genasi tend toward a neutral alignment. Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Their base walking speed is 30 feet. They can speak, read, and write Common and Primordial.",
         "Racial Traits": [
-            "+2 Constitution",
-            "+1 to another ability score depending on subrace",
-            "Resistance to a damage type depending on subrace",
-            "Additional traits depending on subrace"
+            "\n- +2 Constitution\n",
+            "- +1 to another ability score depending on subrace\n",
+            "- Resistance to a damage type depending on subrace\n",
+            "- Additional traits depending on subrace"
         ]
     },
     "Gnome": {
         "Name": "Gnome",
-        "Description": "A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body.",
-        "Age": "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
-        "Alignment": "Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.",
-        "Size": "Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
-        "Speed": "Your base walking speed is 25 feet.",
-        "Languages": "You can speak, read, and write Common and Gnomish.",
-        "Racial Traits": ["+2 Intelligence", "Darkvision", "Gnome Cunning"]
+        "Description": "A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years. Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious. Gnomes are between 3 and 4 feet tall and average about 40 pounds. Their base walking speed is 25 feet. They can speak, read, and write Common and Gnomish.",
+        "Racial Traits": [
+            "\n- +2 Intelligence\n",
+            "- Darkvision\n",
+            "- Gnome Cunning"
+        ]
     },
     "Goliath": {
         "Name": "Goliath",
-        "Description": "Goliaths are massive creatures unafraid of throwing their weight around in a fight. Highly competitive, these strong nomads can prove to be powerful allies and welcome additions to any adventuring party.",
-        "Age": "Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.",
-        "Alignment": "Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self- sufficiency and personal accountability, pushes them toward neutrality.",
-        "Size": "Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.",
-        "Speed": "Your base walking speed is 30 feet.",
-        "Languages": "You can speak, read, and write Common and Giant.",
+        "Description": "Goliaths are massive creatures unafraid of throwing their weight around in a fight. Highly competitive, these strong nomads can prove to be powerful allies and welcome additions to any adventuring party. They have lifespans comparable to humans, enter adulthood in their late teens and usually live less than a century. Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self-sufficiency and personal accountability, pushes them toward neutrality. Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Their base walking speed is 30 feet. They can speak, read, and write Common and Giant.",
         "Racial Traits": [
-            "+2 Strength",
-            "+1 Constitution",
-            "Natural Athlete",
-            "Stone's Endurance",
-            "Powerful Build",
-            "Mountain Born"
+            "\n- +2 Strength\n",
+            "- +1 Constitution\n",
+            "- Natural Athlete\n",
+            "- Stone's Endurance\n",
+            "- Powerful Build\n",
+            "- Mountain Born"
         ]
     },
     "Halfling": {
         "Name": "Halfling",
-        "Description": "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense.",
-        "Age": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
-        "Alignment": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
-        "Size": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
-        "Speed": "Your base walking speed is 25 feet.",
-        "Languages": "You can speak, read, and write Common and Halfling.",
+        "Description": "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century. Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways. Halflings average about 3 feet tall and weigh about 40 pounds. Their base walking speed is 25 feet. They can speak, read, and write Common and Halfling.",
         "Racial Traits": [
-            "+2 Dexterity",
-            "Lucky",
-            "Brave",
-            "Halfling Nimbleness"
+            "\n- +2 Dexterity\n",
+            "- Lucky\n",
+            "- Brave\n",
+            "- Halfling Nimbleness"
         ]
     },
     "Human": {
         "Name": "Human",
-        "Description": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
-        "Age": "Humans reach adulthood in their late teens and live less than a century.",
-        "Alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
-        "Size": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
-        "Speed": "Your base walking speed is 30 feet.",
-        "Languages": "You can speak, read, and write Common and one extra language of your choice.",
-        "Racial Traits": ["+1 to All Ability Scores", "Extra Language"]
+        "Description": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds. Humans reach adulthood in their late teens and live less than a century. Humans tend toward no particular alignment. The best and the worst are found among them. Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Their base walking speed is 30 feet. They can speak, read, and write Common and one extra language of your choice.",
+        "Racial Traits": ["\n- +1 to All Ability Scores\n", "- Extra Language"]
     },
     "Tiefling": {
         "Name": "Tiefling",
-        "Description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling.",
-        "Age": "Tieflings mature at the same rate as humans but live a few years longer.",
-        "Alignment": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
-        "Size": "Tieflings are about the same size and build as humans. Your size is Medium.",
-        "Speed": "Your base walking speed is 30 feet.",
-        "Languages": "You can speak, read, and write Common and Infernal.",
+        "Description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. Tieflings mature at the same rate as humans but live a few years longer. Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment. Tieflings are about the same size and build as humans. Their base walking speed is 30 feet. They can speak, read, and write Common and Infernal.",
         "Racial Traits": [
-            "+2 Charisma",
-            "+1 Intelligence",
-            "Darkvision",
-            "Hellish Resistance",
-            "Infernal Legacy"
+            "\n- +2 Charisma\n",
+            "- +1 Intelligence\n",
+            "- Darkvision\n",
+            "- Hellish Resistance\n",
+            "- Infernal Legacy"
         ]
     }
 }

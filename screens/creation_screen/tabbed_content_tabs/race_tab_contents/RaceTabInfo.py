@@ -23,46 +23,25 @@ class RaceTabInformations(Widget):
         self.data = data
         self.selected_race = selected_race
         self.selected_race_title = Markdown("# Informations about selected race.", classes="selected_race_title")
-        self.selected_race_name = Markdown(classes="selected_race_name")
         self.selected_race_description = Markdown(classes="selected_race_description")
-        self.selected_race_age = Markdown(classes="selected_race_age") 
-        self.selected_race_alignment = Markdown(classes="selected_race_alignment") 
-        self.selected_race_size = Markdown(classes="selected_race_size")
-        self.selected_race_speed = Markdown(classes="selected_race_speed") 
-        self.selected_race_languages = Markdown(classes="selected_race_languages")
         self.selected_race_traits = Markdown(classes="selected_race_traits")
     
     def compose(self) -> ComposeResult:
         yield self.selected_race_title
-        yield self.selected_race_name
         yield self.selected_race_description
-        yield self.selected_race_age
-        yield self.selected_race_alignment 
-        yield self.selected_race_size
-        yield self.selected_race_speed
-        yield self.selected_race_languages 
         yield self.selected_race_traits
                 
     def update_race(self, selected_race):
         self.selected_race = selected_race
         if isinstance(selected_race, NoSelection):
             self.selected_race_title.update("#  Informations about selected race.")
-            self.selected_race_name.update('')
             self.selected_race_description.update('')
-            self.selected_race_age.update('')
-            self.selected_race_alignment.update('')
-            self.selected_race_size.update('')
-            self.selected_race_speed.update('')
-            self.selected_race_languages.update('')
             self.selected_race_traits.update('')
         else:
-            traits = ', '.join(self.data[self.selected_race]['Racial Traits'])
+            traits = """""".join(self.data[self.selected_race]['Racial Traits'])
             self.selected_race_title.update(f"# Informations about {self.data[self.selected_race]['Name']} race.")
-            self.selected_race_name.update(f"Name: {self.data[self.selected_race]['Name']}")
-            self.selected_race_description.update(f"Description: {self.data[self.selected_race]['Description']}")
-            self.selected_race_age.update(f"Age: {self.data[self.selected_race]['Age']}")
-            self.selected_race_alignment.update(f"Alignment: {self.data[self.selected_race]['Alignment']}")
-            self.selected_race_size.update(f"Size: {self.data[self.selected_race]['Size']}")
-            self.selected_race_speed.update(f"Speed: {self.data[self.selected_race]['Speed']}")
-            self.selected_race_languages.update(f"Languages: {self.data[self.selected_race]['Languages']}")  
-            self.selected_race_traits.update(f"Racial Traits: {traits}")
+            self.selected_race_description.update(f"## Description \n {self.data[self.selected_race]['Description']}")
+            self.selected_race_traits.update(f"## Racial Traits {traits}")
+            
+    def on_mount(self) -> None:
+        self.query_one(".selected_race_traits").tooltip = "Racial traits are distinctive physical or behavioral characteristics that are shared by a group of people. In the context of role-playing games like Dungeons & Dragons, racial traits often refer to the inherent abilities, skills, or qualities of a particular race. "
