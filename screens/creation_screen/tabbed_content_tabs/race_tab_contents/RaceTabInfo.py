@@ -22,7 +22,7 @@ class RaceTabInformations(Widget):
             
         self.data = data
         self.selected_race = selected_race
-        self.selected_race_title = Markdown("# Informations about selected class will be displayed here.", classes="selected_race_title")
+        self.selected_race_title = Markdown("# Informations about selected race.", classes="selected_race_title")
         self.selected_race_name = Markdown(classes="selected_race_name")
         self.selected_race_description = Markdown(classes="selected_race_description")
         self.selected_race_age = Markdown(classes="selected_race_age") 
@@ -46,7 +46,7 @@ class RaceTabInformations(Widget):
     def update_race(self, selected_race):
         self.selected_race = selected_race
         if isinstance(selected_race, NoSelection):
-            self.selected_race_title.update("#  Informations about selected class will be displayed here.")
+            self.selected_race_title.update("#  Informations about selected race.")
             self.selected_race_name.update('')
             self.selected_race_description.update('')
             self.selected_race_age.update('')
@@ -56,8 +56,8 @@ class RaceTabInformations(Widget):
             self.selected_race_languages.update('')
             self.selected_race_traits.update('')
         else:
-            traits = '\n '.join(self.data[self.selected_race]['Racial Traits'])
-            self.selected_race_title.update(f"# Showing informations for {self.data[self.selected_race]['Name']}.")
+            traits = ', '.join(self.data[self.selected_race]['Racial Traits'])
+            self.selected_race_title.update(f"# Informations about {self.data[self.selected_race]['Name']} race.")
             self.selected_race_name.update(f"Name: {self.data[self.selected_race]['Name']}")
             self.selected_race_description.update(f"Description: {self.data[self.selected_race]['Description']}")
             self.selected_race_age.update(f"Age: {self.data[self.selected_race]['Age']}")

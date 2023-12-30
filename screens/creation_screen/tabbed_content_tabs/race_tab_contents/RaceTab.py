@@ -24,7 +24,7 @@ Welcome, brave adventurer, to a world of limitless possibilities, a realm where 
 
 Each class is unique, offering its own set of skills, abilities, and traits that will shape your adventure. Will you be a valiant knight, wielding your sword with honor and courage? Or perhaps a cunning rogue, using stealth and trickery to overcome your foes? Maybe you see yourself as a wise wizard, harnessing the arcane forces to bend reality to your will?
 
-The choice is yours, and each decision will pave the way for your unique story. Remember, there is no right or wrong choice, only different paths on the road to glory. So, take a moment, breathe deep, and listen to your heart. Who do you want to be in this grand adventure?
+The choice is yours, and each decision will pave the way for your unique story. Remember, there is no right or wrong choice, only different paths on the road to glory.
 
 Choose wisely, for the path you set upon will define your journey, your challenges, and your ultimate destiny. Good luck, adventurer, and may fortune favor the bold!
 """
