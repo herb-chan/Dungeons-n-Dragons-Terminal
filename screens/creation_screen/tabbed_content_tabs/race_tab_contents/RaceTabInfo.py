@@ -1,7 +1,6 @@
 from textual.app import ComposeResult
-from textual.widgets import Label, Markdown
+from textual.widgets import Markdown
 from textual.widget import Widget
-from textual.containers import Center
 from textual.widgets._select import NoSelection
 import json
 

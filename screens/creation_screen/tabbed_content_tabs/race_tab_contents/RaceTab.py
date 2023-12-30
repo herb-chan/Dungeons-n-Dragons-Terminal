@@ -1,8 +1,7 @@
 from textual import on
 from textual.app import ComposeResult
-from textual.widgets import Label, TabPane, Select, Footer, Markdown
+from textual.widgets import TabPane, Select, Markdown
 from textual.widgets._select import NoSelection
-from textual.containers import Center
 
 from screens.creation_screen.tabbed_content_tabs.race_tab_contents.RaceTabInfo import RaceTabInformations
 
